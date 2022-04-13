@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none; }
+
+.Header {
+  background-color: orange;
+  width: 100%;
+  box-shadow: -5px 0 4px black;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem; }
+  .Header .logo {
+    width: 100px;
+    margin-left: 2%;
+    height: 100%; }
+    .Header .logo a img {
+      width: 100%; }
+  .Header .nav {
+    display: flex;
+    padding-right: 3px; }
+    .Header .nav ul {
+      display: flex; }
+      .Header .nav ul li {
+        display: block; }
+        .Header .nav ul li a {
+          color: white;
+          margin-left: 21px;
+          font-size: 18px; }
+
+.Main-list {
+  margin: 0 auto;
+  width: 100%; }
+  .Main-list .Main-Card {
+    box-shadow: 0 0 5px black;
+    width: 650px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 12px; }
+    .Main-list .Main-Card .photo {
+      margin-right: 10px; }
+      .Main-list .Main-Card .photo img {
+        width: 100%; }
+    .Main-list .Main-Card .Text {
+      margin-left: 10px; }
+      .Main-list .Main-Card .Text h1 {
+        font-size: 1rem; }
+      .Main-list .Main-Card .Text p {
+        font-size: 14px; }
+  .Main-list .About {
+    box-shadow: 0 0 5px black;
+    width: 650px;
+    margin: 0 auto;
+    padding: 14px;
+    margin-bottom: 12px; }
+    .Main-list .About img {
+      width: 100%; }
+    .Main-list .About p {
+      line-height: 20px; }
+
+.Versus {
+  box-shadow: 0 0 5px black;
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .Versus .first-Verse {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 130px; }
+    .Versus .first-Verse img {
+      width: 50%; }
+    .Versus .first-Verse h4 {
+      font-size: 1rem; }
+
+@media (max-width: 690px) {
+  .Header .logo {
+    width: 100px; }
+    .Header .logo a img {
+      width: 100%; }
+  .Header .nav ul li a {
+    font-size: 15px; }
+
+  .Main-list .Main-Card {
+    width: 600px; }
+  .Main-list .About {
+    width: 600px; }
+
+  .Versus {
+    box-shadow: 0 0 5px black;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .Versus .first-Verse {
+      display: flex;
+      align-items: center;
+      width: 160px;
+      height: 110px; }
+      .Versus .first-Verse img {
+        width: 50%; }
+      .Versus .first-Verse h4 {
+        font-size: 0.7rem; } }
+@media (max-width: 635px) {
+  .Header .logo {
+    width: 100px; }
+    .Header .logo a img {
+      width: 100%; }
+  .Header .nav ul li a {
+    font-size: 11px; }
+
+  .Main-list .Main-Card {
+    width: 500px; }
+    .Main-list .Main-Card p {
+      font-size: 13px; }
+  .Main-list .About {
+    width: 500px; }
+    .Main-list .About p {
+      font-size: 13px; }
+
+  .Versus {
+    box-shadow: 0 0 5px black;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .Versus .first-Verse {
+      display: flex;
+      align-items: center;
+      width: 160px;
+      height: 110px; }
+      .Versus .first-Verse img {
+        width: 50%; }
+      .Versus .first-Verse h4 {
+        font-size: 0.7rem; } }
+@media (max-width: 520px) {
+  .Main-list .Main-Card {
+    width: 400px; }
+    .Main-list .Main-Card .Text {
+      margin-left: 0; }
+      .Main-list .Main-Card .Text h1 {
+        font-size: 11px; }
+      .Main-list .Main-Card .Text p {
+        font-size: 9px; }
+  .Main-list .About {
+    width: 400px; }
+    .Main-list .About p {
+      font-size: 11px; } }
+@media (max-width: 430px) {
+  .Main-list .Main-Card {
+    display: block;
+    width: 300px; }
+    .Main-list .Main-Card .Text {
+      padding: 0 11px 0 1px; }
+      .Main-list .Main-Card .Text h1 {
+        font-size: 10px; }
+      .Main-list .Main-Card .Text p {
+        font-size: 9px; }
+  .Main-list .About {
+    width: 300px; }
+    .Main-list .About p {
+      font-size: 9px; } }
+@media (max-width: 330px) {
+  .Main-list .Main-Card {
+    display: block;
+    width: 250px; }
+    .Main-list .Main-Card .Text {
+      padding: 0 11px 0 1px; }
+      .Main-list .Main-Card .Text h1 {
+        font-size: 10px; }
+      .Main-list .Main-Card .Text p {
+        font-size: 9px; }
+  .Main-list .About {
+    width: 250px; }
+    .Main-list .About p {
+      font-size: 9px; } }
+
+/*# sourceMappingURL=style.css.map */
